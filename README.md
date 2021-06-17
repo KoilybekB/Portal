@@ -1,1 +1,2 @@
-# Portal
+Baglan - Teacher
+Gabit - Student

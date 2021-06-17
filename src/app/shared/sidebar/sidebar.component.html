@@ -1,0 +1,42 @@
+<mat-list>
+    <mat-list-item routerLink="{{routes.DASHBOARD}}" routerLinkActive="active">
+        <mat-icon>home</mat-icon>
+        Dashboard
+    </mat-list-item>
+
+</mat-list>
+
+<p class="sidebar-title">TEACHER</p>
+
+<mat-list>
+    <mat-list-item routerLink="{{routes.TEACHER_WS}}" routerLinkActive="active">
+        <mat-icon>assessment</mat-icon>
+        WORKSPACE
+    </mat-list-item>
+    <mat-list-item routerLink="{{routes.TEACHER_SH}}" routerLinkActive="active">
+        <mat-icon>event</mat-icon>
+
+        SCHEDULE
+    </mat-list-item>
+    <mat-list-item routerLink="{{routes.TEACHER_JOURNAL}}" routerLinkActive="active">
+        <mat-icon>view_list</mat-icon>
+        JOURNAL
+    </mat-list-item>
+</mat-list>
+
+<p class="sidebar-title">STUDENT</p>
+
+<mat-list>
+    <mat-list-item routerLink="{{routes.STUDENT_WS}}" routerLinkActive="active">
+        <mat-icon>assessment</mat-icon>
+        WORKSPACE
+    </mat-list-item>
+    <mat-list-item routerLink="{{routes.STUDENT_SH}}" routerLinkActive="active">
+        <mat-icon>event</mat-icon>
+        SCHEDULE
+    </mat-list-item>
+    <mat-list-item routerLink="{{routes.STUDENT_PL}}" routerLinkActive="active">
+        <mat-icon>description</mat-icon>
+        DIARY
+    </mat-list-item>
+</mat-list>
